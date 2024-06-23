@@ -1,0 +1,16 @@
+{
+  "name": "sms",
+  "version": "1.0.0",
+  "description": "school management system",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon main.js"
+  },
+  "author": "Muhammad Umair",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "mongoose": "^8.4.3",
+    "nodemon": "^3.1.4"
+  }
+}
