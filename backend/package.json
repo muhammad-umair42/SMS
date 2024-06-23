@@ -2,13 +2,17 @@
   "name": "sms",
   "version": "1.0.0",
   "description": "school management system",
-  "main": "main.js",
+  "main": "index.js",
+  "type": "module",
   "scripts": {
-    "start": "nodemon main.js"
+    "start": "nodemon src/index.js"
   },
   "author": "Muhammad Umair",
   "license": "ISC",
   "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
     "express": "^4.19.2",
     "mongoose": "^8.4.3",
     "nodemon": "^3.1.4"
